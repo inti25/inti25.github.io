@@ -156,6 +156,28 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 
 /* ---------------------------------
+5. MYLIFE SECTION
+--------------------------------- */
+
+.mylife-section{ padding-bottom: 0; }
+
+.mylife-section .mylifeFilter{ margin-top: 60px; color: #666; }
+
+.mylife-section .mylifeFilter a{ margin: 10px 10px 0 0; }
+
+.mylife-section .mylifeFilter a.current{  color: #FFA804; }
+
+.mylife-section .mylifeContainer{ margin-left: -15px; margin-right: -15px; }
+
+.mylife-section .p-item{ width: 33.333%; padding: 0 7.5px 0px; margin-top: 15px; }
+
+.mylife-section .p-item a{ display: inline; }
+
+.mylife-section .p-item.p-item-2 .img:first-child{ float: left; width: 50%; padding-right: 7.5px; }
+
+.mylife-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
+
+/* ---------------------------------
 5. PORFOLIO SECTION
 --------------------------------- */
 
@@ -177,10 +199,11 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
 
-.p-item-custom {
+.portfolio-section .p-item-custom {
 	width: 100px;
 	height: 100px;
-	margin: 5px;
+	margin-top: 20px;
+	padding: 15px;
 }
 
 .p-item-custom-title {

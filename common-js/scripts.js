@@ -44,6 +44,18 @@
 				 return false;
 			}); 
 		}
+
+        if(isExists('.mylifeContainer')){
+            var $containers = $('.mylifeContainer');
+            $containers.isotope({
+                filter: '*',
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+        }
 	
 	});
 	
